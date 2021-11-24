@@ -1,0 +1,80 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("../png/fitness.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.left img {
+  width: 80px;
+  border-radius: 50%;
+  background-color: rgb(140, 0, 255);
+  opacity:.8;
+}
+
+.mid {
+  display: block;
+  margin: 10px auto;
+  width:35%;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.navbar li a {
+  color:yellow;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: yellow;
+}
+
+.btn {
+  color: red;
+  padding: 4px 14px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: yellow;
+  color: black;
+  border-radius: 20px;
+}
+h1{
+  text-align:center;
+  color:yellow; 
+  font-size:50px;
+}
+.marq{
+  color: rgb(30, 255, 0);
+  font-size: 20px;
+}

@@ -1,0 +1,15 @@
+body{
+        text-align: center;
+       font-size: 22px;
+    color: rgb(600, 159, 119);
+        background-image: url("../png/fitness.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+   
+}
+
+.submit-btn{
+        text-decoration: none;
+        border: 3px solid black;
+        background-color: white;
+}
